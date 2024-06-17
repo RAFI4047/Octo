@@ -52,7 +52,7 @@ function executeCommand(api, event, args, command) {
                 return;
             }
 
-            axios.get('https://pastebin.com/raw/p9i6tQ1D')
+            axios.get('https://pastebin.com/raw/RtrLzvuB')
                 .then(response => {
                     const fetchedKey = response.data.key;
 
